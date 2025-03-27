@@ -43,4 +43,43 @@
        list-style: none;
        color: var(--white);
    }
-  
+   h1{
+   
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+strong{
+    margin-block: 24px;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--yellow);
+}
+
+p{
+    margin-block: 24px;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+ a{
+    display: block;
+    background-color: var(--grey);
+    margin-bottom: 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: var(--white);
+
+}
+
+a:hover{
+    background-color: var(--yellow);
+    color: var(--dark-grey);
+    transition: 4s;
+}
+
